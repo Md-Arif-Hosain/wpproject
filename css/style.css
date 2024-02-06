@@ -276,3 +276,13 @@ textarea#exampleFormControlTextarea1 {
     border-bottom: 1px solid blue !important;
     color: black;
 }
+
+
+/* Contact Page Section Start */
+.contact{
+    background-image: url('../img/SM-881.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
