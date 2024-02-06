@@ -1,0 +1,192 @@
+
+
+@media (max-width: 1600px) {
+    input[type="text"] {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1360px) {
+   .blog .col-md-1.mb-5 {
+    display: none;
+}
+.blog .col-md-5.col-sm-12 {
+    padding-left: 76px;
+}
+}
+
+@media (max-width: 1200px){
+    /* Maga Menu */
+    a.navbar-brand.pt-0 {
+        max-width: 270px;
+    }
+    .megamenu .mb-5 p {
+        font-size: 47px;
+    }
+    .topgap {
+        margin-top: 190px;
+    }
+    li.nav-item {
+        margin-right: -12px;
+    }
+    img.position-absolute.pt-5.w-45 {
+       display: none;
+    }
+    .btn{
+        padding: 0px;
+    }
+    /* End Mega Menu */
+    /* Gallery Titile */
+    .gallery p.h1.fs-1.pt-5 {
+        font-size: 129px !important;
+    }
+}
+
+@media (max-width: 992px){
+    /* Mega Menu */
+    a.navbar-brand.pt-0 {
+        max-width: 201px;
+    }
+    .topgap {
+        margin-top: 114px;
+    }
+    /* Banner */
+    #unlock p.mt-5.lh-sm {
+        padding: 40px 60px;
+        font-size: 62px;
+    }
+    /* Gallery */
+    .gallery p.h1.fs-1.pt-5 {
+        font-size: 95px !important;
+    }
+  
+}
+
+@media (max-width: 768px){
+    /* Banner */
+    #unlock p.mt-5.lh-sm {
+        padding: 40px 40px;
+        font-size: 62px;
+    }
+    /* Gallery */
+    .gallery p.h1.fs-1.pt-5 {
+        font-size: 88px !important;
+    }
+
+   
+}
+
+@media (max-width: 767px){
+    /*Home Storeys */
+    /* .storeys{
+        padding: 25px;
+    } */
+    .bgimgone {
+        background-image: url('../img/ppp.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        opacity: .5;
+    }
+    .store .count {
+        margin-top: 138px !important;
+    }
+    .nahid {
+        padding-bottom: 170px;
+    }
+    .store .count1 {
+        margin-top: 129px !important;
+    }
+    .store .count2 {
+        margin-top: 150px !important;
+    }
+   
+    /*Home Banner */
+    #unlock .d-flex.flex-column.justify-content-between.flex-md-row.mt-5.mb-5 {
+        padding: 40px 60px;
+    }
+    /* Home Greeen Shore */
+    .shore h1.text-light.mb-5.ms-5 {
+        font-size: 48px;
+    }
+    .shore .one.ms-5 {
+        margin-left: 0px !important;
+    }
+    /* Home Hera from */
+    .subdiv p.ms-5.mt-5.me-5 {
+        padding-top: 40px;
+    }
+    .subdiv p.h3{
+        padding-bottom: 40px;
+    }
+    .storeys .store .nahid{
+        width: 75%;
+    }
+    /* Blog CSS */
+    .blog img.img-fluid.ms-5.mb-5 {
+        width: 75%;
+    }
+    p.mt-2.text-light.arifa {
+        margin-top: 99px !important;
+        font-size: 26px;
+    }
+    .blog.col-md-1 .col-sm-12 .mb-5 {
+        background-image: url('../img/Line66.png');
+        background-size: cover;
+
+    }
+}
+
+@media (max-width: 600px) {
+     /*Home Banner */
+     #unlock .d-flex.flex-column.justify-content-between.flex-md-row.mt-5.mb-5 {
+        padding: 40px 40px;
+    }
+    #unlock p.mt-5.lh-sm {
+        padding: 40px 40px;
+        font-size: 45px;
+    }
+
+    /* Home Green Shore */
+    .shore h1.text-light.mb-5.ms-5 {
+        font-size: 30px;
+    }
+    .shore img.img-fluid.ms-5.me-5 {
+        width: 68%;
+    }
+    #unlock p.mt-5.lh-sm {
+        font-size: 41px;
+    }
+    
+   
+}
+
+@media (max-width: 320px){
+    /* Home banner */
+    #unlock .d-flex.flex-column.justify-content-between.flex-md-row.mt-5.mb-5 {
+        padding:25px;
+    }
+    #unlock .h1 {
+        font-size: 49px;
+    }
+    #unlock .img-fluid {
+        max-width: 35%;
+    }
+    #unlock p.mt-5.lh-sm {
+        padding: 15px;
+        font-size: 32px;
+    }
+    .gallery p.h1.fs-1.pt-5 {
+        font-size: 65px !important;
+    }
+    .gallery img.img-fluid.mt-5 {
+        margin-top: -48px !important;
+    }
+
+    /* Blog Css */
+    .blog img.img-fluid.ms-5.mb-5 {
+        width: 75%;
+    }
+
+    /* Test */
+   
+}

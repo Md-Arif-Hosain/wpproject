@@ -1,0 +1,278 @@
+
+/* Google Font Use */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-family: 'Figtree', sans-serif;
+}
+/* Global Css */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*Start Mega Menu CSS */
+.megamenu .mb-5 p {
+    font-family: "Noto Serif", serif;
+    font-size: 70px;
+}
+img.position-absolute.pt-5.w-45 {
+    width:777px;
+    margin-top: 49px;
+}
+
+.col-md-6.col-12.mt-5.gaptop {
+    margin-top: 100px !important;
+}
+.topgap{
+    margin-top: 200px;
+}
+.megamenu{
+    background: linear-gradient(180deg, #002253 0%, rgba(18, 108, 233, 0) 100%);
+}
+/* End Mega Menu CSS */
+
+/* Navbar Home Page Css */
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom:0px !important;
+    margin-top: 0px !important;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+}
+/* img.ms-5 {
+    opacity: 0.2;
+} */
+
+.header{
+    background-image: url('../img/SM-8 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.navbar{
+    background: linear-gradient(180deg, #002253 0%, rgba(0, 32, 78, 0.00) 100%);
+}
+form .btn{
+    border-radius: 0px !important;
+}
+
+/* Unlock Banner Home Page Css */
+#unlock {
+    background-image: linear-gradient(#005893, white);
+  }
+
+  #unlock .h1{
+        font-size: 60px; 
+    }
+   #unlock p.mt-5.lh-sm {
+        padding: 40px 100px;
+        font-size: 64px;
+    }
+    img.ms-5.arif {
+        padding-left: 159px;
+    }
+    .d-flex.flex-wrap.flex-column.justify-content-center.flex-sm-row.gap-5.mb-5.mt-5 {
+        margin-top: 125px !important;
+    }
+
+/* End Unlock Banner Home Page CSS */
+
+ /* Start Gallery Home Page CSS */
+ .gallery p.h1.fs-1.pt-5 {
+    font-size: 167px !important;
+        color: #005893;
+        margin-top: 126px;
+    }
+    button.btn.btn-success.btn-lg.mt-4.mb-5 {
+        background: #005893 !important; 
+    }
+   
+
+    /* End Gallery Home Page CSS */
+
+/* Start Storiys Home Page CSS */
+.storeys{
+    background-color: #343434 !important;
+}
+.store .count{
+    margin-top: 208px !important;
+}
+.store .count1 {
+    margin-top: 300px !important;
+}
+.store .count2{
+    margin-top: 400px !important;
+}
+.store p.text-light {
+    font-size: 13px;
+}
+/* End Storiys CSS */
+
+/*Start Bg images two */
+section.fixed {
+    background-image: url('../img/Image\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+
+/* Green Shore CSS Start */
+.shore p.text-light.fsize {
+    font-size: 18px;
+}
+.shore .col-md-4.col-12.mt-5 {
+    margin-top: 130px !important;
+}
+/* End Green Shore CSS */
+
+/* Client CSS Start */
+img.img-fluid.one {
+    position: absolute;
+    margin: 22px;
+}
+.bgimg {
+    background-image: url('img/bg.png');
+    background-size: cover;
+
+}
+
+.subdiv p.ms-5.mt-5.me-5 {
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 400px;
+    padding-top: 64px;
+}
+.subdiv{
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+/* Client CSS End */
+
+/* Blog CSS START */
+.blog {
+    background-image: linear-gradient(#333333, #005893);
+  }
+  p.mt-2.text-light.arifa {
+    margin-top: 220px !important;
+    font-size: 26px;
+}
+.text-light.arifa {
+    font-size: 26px;
+}
+.col-md-1 {
+    margin-top: 222px;
+}
+/* Blog CSS END */
+
+/* Contact Us CSS Start */
+
+::placeholder {
+    color: white !important;
+    opacity: 1; /* Firefox */
+  }
+.two input[type="text"]{
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    /* color: red !important;  */
+}
+.five input[type="text"]{
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white !important; 
+}
+
+select.form-select {
+    border: none;
+    border-bottom: 1px solid white;
+    color: white !important;
+    border-radius: 0px;
+    max-width: 737px;
+    background: none;
+}
+
+.d-flex input[type="text"] {
+    color: white !important;
+    border-bottom: 1px solid white;
+    border-color: white;
+}
+textarea#exampleFormControlTextarea1 {
+    background: none;
+    border: none;
+    color: white !important;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+}
+
+/* Contact Us CSS End */
+
+
+/* Form CSS Start*/
+.form {
+    padding-top: 95px;
+}
+.bgbg .blog{
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+/* Footer CSS Start */
+.footer{
+    background-color: #333333;
+}
+/* Footer CSS End */
+
+
+/* About page start now This is About page css*/
+
+/* About Header */
+
+.about{
+    background-image: url('../img/921.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    /* overflow: hidden; */
+    background-attachment: fixed;
+}
+
+.aboutus h1 {
+    margin-top: -200px;
+    font-size: 70px;
+}
+.aboutus p{
+    margin-top: -200px;
+ }
+ /* Vison Section Start */
+ .vision button.border-0 {
+    font-size: 50px;
+    border-bottom: 1px solid gray !important;
+    background-color: white !important;
+    color: gray;
+}
+.vision button.border-0:hover{
+    border-bottom: 1px solid blue !important;
+    color: black;
+}
