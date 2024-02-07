@@ -286,3 +286,35 @@ textarea#exampleFormControlTextarea1 {
     height: 800px;
     background-attachment: fixed;
 }
+
+/* Contact us page  */
+.contactus{
+    background-color:#005893;
+}
+.contactus h4{
+    margin-top: 50px;
+}
+
+/* TestMonial Section Start */
+.testmonial {
+    background-image: url('../img/SM-881\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+.testmoni{
+    background-image: linear-gradient(#005893, #333333);
+}
+
+/* Project Page CSS */
+.project {
+    background-image: url('../img/SM-80\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+.serviceform{
+    background-color: #005893;
+}
