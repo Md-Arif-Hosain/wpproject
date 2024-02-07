@@ -141,6 +141,10 @@
         background-size: cover;
 
     }
+    /* Services page */
+    .serviceform img.img-fluid.ms-5.mb-5 {
+        width: 78%;
+    }
 }
 
 @media (max-width: 600px) {
