@@ -19,6 +19,26 @@ h1{
     margin: 0 auto;
 }
 
+/* Button All CSS */
+form .btn{
+    border-radius: 0px !important;
+}
+form .btn-1{
+    color:  #005893 !important;
+   }
+form .btn-1:hover{
+ background-color: #005893 !important;
+ color: white !important;
+}
+/* Gallery Btn */
+button.btn.btn-success.btn-lg.mt-4.mb-5 {
+    background: #005893 !important; 
+}
+button.btn.btn-success.btn-lg.mt-4.mb-5:hover {
+    background: #ffffff !important; 
+    color:#005893 !important ;
+}
+
 /*Start Mega Menu CSS */
 .megamenu .mb-5 p {
     font-family: "Noto Serif", serif;
@@ -64,9 +84,7 @@ img.position-absolute.pt-5.w-45 {
 .navbar{
     background: linear-gradient(180deg, #002253 0%, rgba(0, 32, 78, 0.00) 100%);
 }
-form .btn{
-    border-radius: 0px !important;
-}
+
 
 /* Unlock Banner Home Page Css */
 #unlock {
@@ -95,11 +113,11 @@ form .btn{
         color: #005893;
         margin-top: 126px;
     }
-    button.btn.btn-success.btn-lg.mt-4.mb-5 {
-        background: #005893 !important; 
-    }
    
-
+  .zoom:hover {
+    transition: transform 1s;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
     /* End Gallery Home Page CSS */
 
 /* Start Storiys Home Page CSS */
