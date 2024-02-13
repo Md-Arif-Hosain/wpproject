@@ -205,6 +205,9 @@ justify-content: center;
 .col-md-1 {
     margin-top: 222px;
 }
+.d-flex.float-end {
+    margin-top: 72px;
+}
 /* Blog CSS END */
 
 /* Contact Us CSS Start */
