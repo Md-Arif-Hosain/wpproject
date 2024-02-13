@@ -29,7 +29,7 @@
         margin-right: -12px;
     }
     img.position-absolute.pt-5.w-45 {
-       display: none;
+        width: 661px;
     }
     .btn{
         padding: 0px;
@@ -48,6 +48,12 @@
     }
     .topgap {
         margin-top: 114px;
+    }
+
+    img.position-absolute.pt-5.w-45 {
+        width: 287px;
+        margin-left: -79px !important;
+        margin-top: 5px;
     }
     /* Banner */
     #unlock p.mt-5.lh-sm {
