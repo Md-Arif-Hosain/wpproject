@@ -281,7 +281,9 @@ textarea#exampleFormControlTextarea1 {
     /* overflow: hidden; */
     background-attachment: fixed;
 }
-
+.aboutus span.fs-6{
+    margin-top: -200px;
+}
 .aboutus h1 {
     margin-top: -200px;
     font-size: 56px;
@@ -341,4 +343,18 @@ textarea#exampleFormControlTextarea1 {
 }
 .serviceform{
     background-color: #005893;
+}
+
+/* Second Page CSS */
+.second {
+    background-image: url('../img/9221.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+.aboutus form.d-flex.btn-1 {
+    float: inline-end;
+    margin-top: -105px;
+    margin-right: 129px;
 }

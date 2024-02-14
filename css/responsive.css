@@ -173,15 +173,16 @@
     }
     #unlock p.mt-5.lh-sm {
         font-size: 41px;
-    }
-
-    /* About Page Start */
-    .aboutus h1 {
-        margin-top: -370px;
-        font-size: 35px;
-    }
-    
+    }    
    
+}
+
+@media (max-width:576px){
+ /* About Page Start */
+ .aboutus h1 {
+    margin-top: -370px;
+    font-size: 35px;
+}
 }
 
 @media (max-width: 320px){
